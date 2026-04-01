@@ -576,16 +576,19 @@ def build_document(output_path="methodology_proposal.pdf"):
         story.append(_fig_table)
         story.append(SP(0.15))
 
-    story.append(SP(0.1))
-    story.append(HR())
-    story.append(SP(0.1))
-    story.append(P(
-        "This methodology proposal is submitted as part of the FAIR INCLUSIVE AV "
-        "application process. All prototype data are synthetic. No confidential or "
-        "personal data have been used in the development of the proof-of-concept "
-        "materials accompanying this application.",
-        NOTE
-    ))
+        story.append(SP(0.1))
+        story.append(HR())
+        story.append(SP(0.1))
+        story.append(P(
+            "This methodology proposal is submitted as part of the FAIR INCLUSIVE AV "
+            "application process. All prototype data are synthetic. No confidential or "
+            "personal data have been used in the development of the proof-of-concept "
+            "materials accompanying this application. Pre-rendered notebook output is "
+            "attached; the full repository including dataset, codebook, and analysis "
+            "notebook is publicly available at "
+            "github.com/bdplazo/fair-inclusive-av-prototype",
+            NOTE
+        ))
 
     # ------------------------------------------------------------------ BUILD
     doc.build(
