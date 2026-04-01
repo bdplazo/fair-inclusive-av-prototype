@@ -1,6 +1,6 @@
 # FAIR INCLUSIVE AV — Gender Pay Gap Calculator Prototype
 
-This repository contains the proof-of-concept prototype for a gender pay gap (GPG) calculator designed for the European audiovisual sector, built as part of an application for **EURO-MEI Project 101250721 (FAIR INCLUSIVE AV)**. The prototype demonstrates that a sector-specific pay gap instrument can be constructed from project-based, multi-employer contract data — something existing tools (Logib, UK GPG reporting service, Austrian Equal Pay Tool) cannot do, as they assume a single employer and a permanently employed workforce. The simulated dataset covers **693 contracts, 230 workers, 65 productions, and 22 variables** spanning four countries (ES, FR, DE, IE), generated with a fixed random seed for full reproducibility.
+This repository contains the proof-of-concept prototype for a gender pay gap (GPG) calculator designed for the European audiovisual sector, built as part of an application for **EURO-MEI Project 101250721 (FAIR INCLUSIVE AV)**. The prototype demonstrates that a sector-specific pay gap instrument can be constructed from project-based, multi-employer contract data -> something existing tools (Logib, UK GPG reporting service, Austrian Equal Pay Tool) cannot do, as they assume a single employer and a permanently employed workforce. The simulated dataset covers **693 contracts, 230 workers, 65 productions, and 22 variables** spanning four countries (ES, FR, DE, IE), generated with a fixed random seed for full reproducibility.
 
 ---
 
@@ -110,4 +110,4 @@ All data in this repository are **entirely synthetic**, generated programmatical
 
 ---
 
-*Proof of concept for EURO-MEI FAIR INCLUSIVE AV — Project 101250721. April 2026.*
+*Proof of concept for EURO-MEI FAIR INCLUSIVE AV — Project 101250721. April 2026. :-)*
